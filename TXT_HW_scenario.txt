@@ -1,0 +1,71 @@
+TXT
+1.	Создать внешний репозиторий c названием TXT.
+GitHub/Repositories/New/TXT2
+* * *
+2.	Клонировать репозиторий TXT на локальный компьютер.
+git clone git@github.com:Zezova/TXT2.git
+* * *
+3.	Внутри локального TXT создать файл “new.txt”.
+cd TXT2/
+touch new.txt
+* * *
+4.	Добавить файл под гит.
+git add new.txt
+* * *
+5.	Закоммитить файл.
+git commit -m "Text file"
+* * *
+6.	Отправить файл на внешний GitHub репозиторий.
+git push
+* * *
+7.	Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+FullName: Ekaterina Zezova,
+age: 33,
+number of pets: zero,
+future desired salary: 1000
+* * *
+8.	Отправить изменения на внешний репозиторий.
+git status
+git add new.txt
+git commit -m "Some edits"
+git push
+* * *
+9.	Создать файл preferences.txt
+cat > preferences.txt
+* * *
+10.	В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, люби-мый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в фор-мате TXT.
+Favourite movie: Pirates of the Carribean,
+Favourite serial: Friends,
+Favourite food: pizza,
+Favourite season: autumn,
+Country to be visited: Canada
+* * *
+11.	Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в фор-мате TXT.
+cat > skills.txt
+skills: magic
+* * *
+12.	Сделать коммит в одну строку.
+git commit -m "New files"
+* * *
+13.	Отправить сразу 2 файла на внешний репозиторий.
+git add preferences.txt skills.txt
+* * *
+14.	На веб интерфейсе создать файл bug_report.txt.
+GitHub/Create new file/bug_report.json
+* * *
+15.	Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+GitHub/Commit new file
+* * *
+16.	На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+GitHub/Edit file
+Bug number 1: the site doesn’t open in Google Chrome,
+Bug number 2: win-dow downloads for 15 minutes
+* * *
+17.	Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+GitHub/Commit changes
+* * *
+18.	Синхронизировать внешний и локальный репозиторий TXT
+git status
+git pull
+* * *
