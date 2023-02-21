@@ -1,1 +1,2 @@
-
+Bug number 1" : "the site doesn't open in Google Chrome
+Bug number 2" : "window downloads for 15 minutes
